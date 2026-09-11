@@ -14,7 +14,7 @@ export const siteConfig = {
   /** The portfolio as a whole. Shown in the hero and metadata. */
   portfolio: {
     kicker: "Portfolio",
-    tagline: "AI automation for digital compliance. Faster processes without giving up the audit trail.",
+    tagline: "AI automation for legal operations and digital compliance. Faster processes without giving up the audit trail.",
     lede: "These case studies are part of my thesis research on bringing AI into the everyday compliance workflows that legal, compliance and consultancy teams run. It is an approach I am planning to apply and keep developing in my own work.",
     // The three practice areas the portfolio covers.
     areas: [
@@ -52,7 +52,7 @@ export const siteConfig = {
   links: {
     linkedin: "https://www.linkedin.com/in/catalinacarvajalm/",
     github: "https://github.com/ccarvajalm10",
-    repo: "https://github.com/ccarvajalm10/catalina-compliance-automation-portfolio",
+    repo: "https://github.com/ccarvajalm10/catalina-legal-compliance-portfolio",
   },
 
   /**
