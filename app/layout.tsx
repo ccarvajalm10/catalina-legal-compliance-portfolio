@@ -30,10 +30,6 @@ function Nav() {
         <Link href="/" className="font-serif text-[19px] font-medium tracking-tight">
           {siteConfig.author.name}
         </Link>
-        <div className="hidden items-center gap-2 rounded-full border border-[var(--line-2)] px-3 py-1 text-[11.5px] text-[var(--ink-2)] md:flex">
-          <span className="h-1.5 w-1.5 rounded-full bg-[var(--v-met)]" />
-          {siteConfig.author.availability}
-        </div>
         <nav className="flex items-center gap-1 text-[13.5px] text-[var(--ink-2)]">
           <Link href="/" className="rounded-lg px-3 py-1.5 hover:bg-white/[0.06] hover:text-[var(--ink)]">
             Home
