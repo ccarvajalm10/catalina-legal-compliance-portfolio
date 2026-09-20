@@ -41,6 +41,9 @@ function Nav() {
           <Link href="/investigations" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
             Investigations
           </Link>
+          <Link href="/skills" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
+            Skills
+          </Link>
           <Link href="/#about" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
             About
           </Link>

@@ -4,7 +4,7 @@
 export const siteConfig = {
   author: {
     name: "Catalina Carvajal M.",
-    title: "Privacy & Legal Specialist",
+    title: "Privacy Professional & Legal Technologist",
     location: "Dublin, Ireland",
     email: "catalinacarvajalm3@gmail.com",
     // Shown as a small status pill in the nav.
@@ -16,8 +16,8 @@ export const siteConfig = {
   /** The portfolio as a whole. Shown in the hero and metadata. */
   portfolio: {
     kicker: "Portfolio",
-    tagline: "Privacy specialist. Legal specialist. Working at the intersection of law, data and technology.",
-    lede: "I investigate complex privacy problems, connect regulatory requirements with technical evidence, and build practical workflows for safer digital products.",
+    tagline: "Working at the intersection of law, data and technology.",
+    lede: "CIPP/E and CIPM certified privacy professional with a Master's in Law, Data and AI and three years of legal-services experience across EU, US and LATAM frameworks. I connect regulatory requirements with technical evidence and turn findings into remediation.",
     // Capability tags shown as chips in the hero.
     areas: [
       "GDPR",
@@ -44,9 +44,9 @@ export const siteConfig = {
 
   /** Shown in the About section. */
   about: {
-    bio: "I'm a Colombian-qualified lawyer specialising in privacy, digital regulation and AI governance, with experience across Ireland and Colombia. My work sits between legal analysis and operational problem-solving: DSARs, employee privacy, regulatory research, DPIAs, data governance and compliance workflows for technology and multinational clients. Authorised to work in Ireland (Stamp 1G).",
+    bio: "CIPP/E and CIPM certified privacy professional with a recently completed Master's in Law, Data and AI (EMILDAI) and three years of legal-services experience across privacy, technology, corporate governance and compliance under EU, US and LATAM frameworks. Colombian-qualified, with experience across Ireland and Colombia, and authorised to work in Ireland (Stamp 1G).",
     background:
-      "I recently completed my Master's in Law, Data and AI through the EMILDAI programme and hold the CIPP/E and CIPM. I'm now building deeper technical capabilities in data analysis, SQL and AI workflows, because effective privacy investigations increasingly require understanding not only what the law says, but what the systems and evidence show. See Experience for my background, and Skills for how I build and the further work I draw on.",
+      "I have managed 25+ concurrent legal and compliance matters weekly, collaborating with cross-functional teams and senior stakeholders across departments to communicate regulatory requirements and findings, and coordinating stakeholders to address risks and implement compliance measures. I'm now building deeper technical capabilities in data analysis, SQL and AI workflows, because effective privacy investigations increasingly require understanding not only what the law says, but what the systems and evidence show. See Experience for my background, and Skills for how I build and the further work I draw on.",
     expertise: [
       "GDPR, DPAs and DPIAs",
       "Privacy investigations & incident response",

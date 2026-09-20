@@ -71,13 +71,19 @@ export default function SkillsPage() {
       {/* further work samples */}
       <section id="work-samples" className="scroll-mt-20 bg-[var(--paper-2)]">
         <div className="container-x max-w-[880px] py-14">
-          <p className="kicker on-accent">Further work</p>
+          <p className="kicker on-accent">Knowledge Lab</p>
           <h2 className="display mt-3 text-[clamp(1.7rem,3.2vw,2.4rem)]">
-            Work I keep outside this repository
+            Knowledge Lab &amp; Work Samples
           </h2>
           <p className="mt-4 max-w-[640px] text-[14.5px] leading-relaxed text-[var(--ink-2)]">
-            These are shared for review, not published in full on this site. They are
-            marked <strong>for consultation only</strong>.
+            These resources have been compiled over the last years through my
+            Master&rsquo;s degree, certifications, professional experience, and
+            independent research.
+          </p>
+          <p className="mt-3 max-w-[640px] text-[14.5px] leading-relaxed text-[var(--ink-2)]">
+            They are not exhaustive references. They are personal working frameworks I
+            have built to apply EU digital regulation, digital governance, data
+            protection, and cybersecurity compliance in practice.
           </p>
 
           <div className="mt-8 grid gap-5 sm:grid-cols-2">
@@ -106,6 +112,12 @@ export default function SkillsPage() {
               </a>
             ))}
           </div>
+
+          <p className="mt-6 max-w-[640px] text-[13px] italic leading-relaxed text-[var(--ink-3)]">
+            Each resource reflects how I connect my privacy and regulatory knowledge to
+            operational context. They are for consultation only; please verify any
+            references independently before relying on them for any decision.
+          </p>
         </div>
       </section>
 
