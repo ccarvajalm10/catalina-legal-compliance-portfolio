@@ -20,7 +20,15 @@ export default function Home() {
               {siteConfig.portfolio.tagline}
             </h1>
             <p className="hero-lede mt-6 max-w-xl text-[16.5px] leading-relaxed">
-              {siteConfig.portfolio.lede}
+              I&rsquo;m a <strong>CIPP/E and CIPM-certified privacy professional</strong> with
+              a <strong>Master&rsquo;s in Law, Data &amp; AI</strong> and three years of
+              experience solving privacy and compliance problems across{" "}
+              <strong>EU, US and LATAM frameworks</strong>. I&rsquo;m particularly
+              interested in how{" "}
+              <strong>
+                data, technical evidence and regulation come together to investigate and
+                solve real privacy and operational problems.
+              </strong>
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/investigations" className="btn btn-onhero">

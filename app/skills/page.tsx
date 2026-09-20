@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Consultation } from "@/components/Consultation";
-import { SKILLS, WORK_SAMPLES, BUILD_TOOLS } from "@/lib/skills";
+import { SKILLS, WORK_SAMPLES, WORK_SAMPLE_CATEGORIES, BUILD_TOOLS } from "@/lib/skills";
 
 export const metadata: Metadata = {
   title: "Skills: privacy, technical evidence and cross-functional delivery",
@@ -76,47 +76,58 @@ export default function SkillsPage() {
             Knowledge Lab &amp; Work Samples
           </h2>
           <p className="mt-4 max-w-[640px] text-[14.5px] leading-relaxed text-[var(--ink-2)]">
-            These resources have been compiled over the last years through my
-            Master&rsquo;s degree, certifications, professional experience, and
-            independent research.
+            Here you will find my Knowledge Lab &amp; Work Samples.
           </p>
           <p className="mt-3 max-w-[640px] text-[14.5px] leading-relaxed text-[var(--ink-2)]">
             They are not exhaustive references. They are personal working frameworks I
-            have built to apply EU digital regulation, digital governance, data
+            have built to apply EU digital regulation, T&amp;S governance, data
             protection, and cybersecurity compliance in practice.
           </p>
 
-          <div className="mt-8 grid gap-5 sm:grid-cols-2">
-            {WORK_SAMPLES.map((w) => (
-              <a
-                key={w.title}
-                href={w.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="card group flex flex-col p-5 transition hover:border-[var(--ink-3)]"
-              >
-                <div className="flex items-center gap-2">
-                  <span className="chip">{w.format}</span>
-                  <span className="chip">For consultation only</span>
+          <div className="mt-8 space-y-10">
+            {WORK_SAMPLE_CATEGORIES.map((cat) => {
+              const items = WORK_SAMPLES.filter((w) => w.category === cat);
+              if (items.length === 0) return null;
+              return (
+                <div key={cat}>
+                  <h3 className="text-[12px] font-semibold uppercase tracking-[0.12em] text-[var(--ink-3)]">
+                    {cat}
+                  </h3>
+                  <div className="mt-4 grid gap-5 sm:grid-cols-2">
+                    {items.map((w) => (
+                      <a
+                        key={w.title}
+                        href={w.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="card group flex flex-col p-5 transition hover:border-[var(--ink-3)]"
+                      >
+                        <div className="flex items-center gap-2">
+                          <span className="chip">{w.format}</span>
+                          <span className="chip">For consultation only</span>
+                        </div>
+                        <div className="mt-3 text-[14.5px] font-semibold text-[var(--ink)]">
+                          {w.title}
+                        </div>
+                        <p className="mt-1.5 text-[13px] leading-relaxed text-[var(--ink-2)]">
+                          {w.description}
+                        </p>
+                        <span className="mt-3 inline-flex items-center gap-1.5 text-[12.5px] font-semibold text-[var(--accent-deep)] group-hover:underline">
+                          {domainOf(w.href)}
+                          <span aria-hidden>↗</span>
+                        </span>
+                      </a>
+                    ))}
+                  </div>
                 </div>
-                <div className="mt-3 text-[14.5px] font-semibold text-[var(--ink)]">
-                  {w.title}
-                </div>
-                <p className="mt-1.5 text-[13px] leading-relaxed text-[var(--ink-2)]">
-                  {w.description}
-                </p>
-                <span className="mt-3 inline-flex items-center gap-1.5 text-[12.5px] font-semibold text-[var(--accent-deep)] group-hover:underline">
-                  {domainOf(w.href)}
-                  <span aria-hidden>↗</span>
-                </span>
-              </a>
-            ))}
+              );
+            })}
           </div>
 
-          <p className="mt-6 max-w-[640px] text-[13px] italic leading-relaxed text-[var(--ink-3)]">
-            Each resource reflects how I connect my privacy and regulatory knowledge to
-            operational context. They are for consultation only; please verify any
-            references independently before relying on them for any decision.
+          <p className="mt-8 max-w-[640px] text-[13px] italic leading-relaxed text-[var(--ink-3)]">
+            Each resource reflects how I connect legal knowledge to operational context.
+            They are for consultation only, please verify any references independently
+            before relying on them for any decision.
           </p>
         </div>
       </section>

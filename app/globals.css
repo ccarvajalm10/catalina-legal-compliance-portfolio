@@ -529,6 +529,7 @@ body {
   text-wrap: balance;
 }
 .gradient-hero .hero-lede { color: #cfc9ee; }
+.gradient-hero .hero-lede strong { color: #fbfaff; font-weight: 650; }
 .btn-onhero {
   background: #ffffff;
   color: #17123a;

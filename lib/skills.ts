@@ -79,16 +79,20 @@ export type WorkSample = {
   description: string;
   href: string;
   format: string;
+  category: string;
 };
 
-/** External work, shared for review rather than published in full. */
+/** External work, shared for review rather than published in full. Grouped
+ *  by `category` on the Skills page so they stay easy to scan as this list
+ *  grows. */
 export const WORK_SAMPLES: WorkSample[] = [
   {
-    title: "T&S SQL query library",
+    title: "Academic work samples",
     description:
-      "Practical data queries mapped to real Trust & Safety and GDPR compliance use cases, from content-moderation metrics to breach-notification tracking.",
-    href: "https://ccarvajalm10.github.io/assets/sql-queries.html",
-    format: "Web page",
+      "Coursework applying EU data-protection law to practical cases: international data transfers, biometric data, data-breach notification, retention obligations, and sensitive-data sharing.",
+    href: "https://drive.google.com/drive/folders/1aqC_tjB94CdbB-AQfX7ml4x7juOgxakF?usp=sharing",
+    format: "Folder",
+    category: "Privacy & Data Protection",
   },
   {
     title: "NIS2 technical implementation checklist",
@@ -96,14 +100,23 @@ export const WORK_SAMPLES: WorkSample[] = [
       "ENISA's 13-section guidance on cybersecurity risk-management requirements, transformed into an operational compliance tool for entities under Commission Implementing Regulation (EU) 2024/2690: policies, risk management, supply-chain security, access control, incident response, and business continuity.",
     href: "https://docs.google.com/spreadsheets/d/1hTGw45XJqVyc6KXzQ8nUjoBfY_OeDAlDkKwN5OU3AfY/edit?usp=sharing",
     format: "Spreadsheet",
+    category: "Cybersecurity & Risk",
   },
   {
-    title: "Academic work samples",
+    title: "T&S SQL query library",
     description:
-      "Coursework applying EU data-protection law to practical cases: international data transfers, biometric data, data-breach notification, retention obligations, and sensitive-data sharing.",
-    href: "https://drive.google.com/drive/folders/1aqC_tjB94CdbB-AQfX7ml4x7juOgxakF?usp=sharing",
-    format: "Folder",
+      "Practical data queries mapped to real Trust & Safety and GDPR compliance use cases, from content-moderation metrics to breach-notification tracking.",
+    href: "https://ccarvajalm10.github.io/assets/sql-queries.html",
+    format: "Web page",
+    category: "Technical & Data Analysis",
   },
+];
+
+/** Fixed display order for the categories above. */
+export const WORK_SAMPLE_CATEGORIES = [
+  "Privacy & Data Protection",
+  "Cybersecurity & Risk",
+  "Technical & Data Analysis",
 ];
 
 export const BUILD_TOOLS: string[] = [

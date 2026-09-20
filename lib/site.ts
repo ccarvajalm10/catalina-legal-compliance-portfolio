@@ -16,8 +16,10 @@ export const siteConfig = {
   /** The portfolio as a whole. Shown in the hero and metadata. */
   portfolio: {
     kicker: "Portfolio",
-    tagline: "Working at the intersection of law, data and technology.",
-    lede: "CIPP/E and CIPM certified privacy professional with a Master's in Law, Data and AI and three years of legal-services experience across EU, US and LATAM frameworks. I connect regulatory requirements with technical evidence and turn findings into remediation.",
+    tagline: "Working at the intersection of privacy, data and technology.",
+    // Plain-text fallback (used for metadata only); the hero renders the
+    // bolded version of this directly in app/page.tsx.
+    lede: "I'm a CIPP/E and CIPM-certified privacy professional with a Master's in Law, Data & AI and three years of experience solving privacy and compliance problems across EU, US and LATAM frameworks. I'm particularly interested in how data, technical evidence and regulation come together to investigate and solve real privacy and operational problems.",
     // Capability tags shown as chips in the hero.
     areas: [
       "GDPR",
