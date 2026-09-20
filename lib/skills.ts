@@ -88,24 +88,21 @@ export type WorkSample = {
 export const WORK_SAMPLES: WorkSample[] = [
   {
     title: "Academic work samples",
-    description:
-      "Coursework applying EU data-protection law to practical cases: international data transfers, biometric data, data-breach notification, retention obligations, and sensitive-data sharing.",
+    description: "Coursework applying EU data protection law to real-world privacy scenarios.",
     href: "https://drive.google.com/drive/folders/1aqC_tjB94CdbB-AQfX7ml4x7juOgxakF?usp=sharing",
     format: "Folder",
     category: "Privacy & Data Protection",
   },
   {
     title: "NIS2 technical implementation checklist",
-    description:
-      "ENISA's 13-section guidance on cybersecurity risk-management requirements, transformed into an operational compliance tool for entities under Commission Implementing Regulation (EU) 2024/2690: policies, risk management, supply-chain security, access control, incident response, and business continuity.",
+    description: "A practical checklist for meeting NIS2 cybersecurity requirements.",
     href: "https://docs.google.com/spreadsheets/d/1hTGw45XJqVyc6KXzQ8nUjoBfY_OeDAlDkKwN5OU3AfY/edit?usp=sharing",
     format: "Spreadsheet",
     category: "Cybersecurity & Risk",
   },
   {
     title: "T&S SQL query library",
-    description:
-      "Practical data queries mapped to real Trust & Safety and GDPR compliance use cases, from content-moderation metrics to breach-notification tracking.",
+    description: "SQL queries for privacy and Trust & Safety compliance work.",
     href: "https://ccarvajalm10.github.io/assets/sql-queries.html",
     format: "Web page",
     category: "Technical & Data Analysis",

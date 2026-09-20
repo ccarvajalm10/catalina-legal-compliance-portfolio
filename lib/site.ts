@@ -162,12 +162,12 @@ export const siteConfig = {
     {
       file: "/templates/ISO27001-2022-Self-Assessment.xlsx",
       name: "ISO/IEC 27001:2022 clause self-assessment",
-      note: "A tab per management-system clause (4 Context, 5 Leadership, 6 Planning, 7 Support, 8 Operation, 9 Performance Evaluation, 10 Improvement), with maturity scoring and Summary and Action Plan tabs. A working template I have used to run readiness assessments.",
+      note: "A clause-by-clause self-assessment template for ISO 27001 readiness.",
     },
     {
       file: "/templates/ISO27001-2022-Gap-Analysis-and-SoA.xlsx",
       name: "Gap analysis and Statement of Applicability",
-      note: "Two registers: the Section 4 to 10 mandatory requirements, and all 93 Annex A controls with an applies yes/no column, a six-level implementation maturity scale, and a justification column. Doubles as the Statement of Applicability.",
+      note: "A gap analysis and Statement of Applicability template covering all 93 controls.",
     },
   ],
 } as const;
