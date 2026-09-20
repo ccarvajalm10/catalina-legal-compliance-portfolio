@@ -20,16 +20,15 @@ export const siteConfig = {
     // Plain-text fallback (used for metadata only); the hero renders the
     // bolded version of this directly in app/page.tsx.
     lede: "I'm a CIPP/E and CIPM-certified privacy professional with a Master's in Law, Data & AI and three years of experience solving privacy and compliance problems across EU, US and LATAM frameworks. I'm particularly interested in how data, technical evidence and regulation come together to investigate and solve real privacy and operational problems.",
-    // Capability tags shown as chips in the hero.
+    // Capability tags shown as chips in the hero, all the same shape.
     areas: [
       "GDPR",
-      "Privacy Investigations",
-      "DSARs",
-      "Technical Evidence",
       "SQL",
-      "NIST",
-      "ISO 27001",
       "AI Governance",
+      "Privacy",
+      "Agentic & Gen AI",
+      "AI-Assisted Workflows",
+      "Multicultural Competence",
     ],
   },
 

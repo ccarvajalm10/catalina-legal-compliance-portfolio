@@ -6,18 +6,6 @@ import { WORK_SAMPLES, WORK_SAMPLE_CATEGORIES } from "@/lib/skills";
 import { EDUCATION, CREDENTIALS, EXPERIENCE } from "@/lib/experience";
 import { HOW_I_THINK } from "@/lib/investigation";
 
-/** Varying sizes so the hero tags read as a cloud, not a flat row. */
-const TAG_SIZE = [
-  "text-[16px] font-semibold",
-  "text-[13px]",
-  "text-[14px] font-semibold",
-  "text-[12px]",
-  "text-[13px]",
-  "text-[12px]",
-  "text-[15px] font-semibold",
-  "text-[12px]",
-];
-
 export default function Home() {
   const cases = siteConfig.caseStudies;
 
@@ -63,12 +51,15 @@ export default function Home() {
               >
                 Certifications
               </a>
+              <Link href="/#about" className="btn btn-hero-ghost">
+                About me
+              </Link>
             </div>
-            <div className="mt-10 flex flex-wrap items-center gap-x-4 gap-y-2">
-              {siteConfig.portfolio.areas.map((area, i) => (
+            <div className="mt-10 flex flex-wrap items-center gap-2">
+              {siteConfig.portfolio.areas.map((area) => (
                 <span
                   key={area}
-                  className={`text-[#d9d3f2] ${TAG_SIZE[i % TAG_SIZE.length]}`}
+                  className="rounded-full border border-[#ffffff2e] px-3 py-1 text-[12px] text-[#d9d3f2]"
                 >
                   {area}
                 </span>
