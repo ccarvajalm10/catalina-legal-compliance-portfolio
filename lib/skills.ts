@@ -101,7 +101,7 @@ export const WORK_SAMPLES: WorkSample[] = [
     title: "Academic work samples",
     description:
       "Coursework applying EU data-protection law to practical cases: international data transfers, biometric data, data-breach notification, retention obligations, and sensitive-data sharing.",
-    href: "https://drive.google.com/drive/folders/1aqC_tjB94CdbB-AQfX7ml4x7juOgxakF?usp=drive_link",
+    href: "https://drive.google.com/drive/folders/1aqC_tjB94CdbB-AQfX7ml4x7juOgxakF?usp=sharing",
     format: "Folder",
   },
 ];
