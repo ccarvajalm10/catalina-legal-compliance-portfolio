@@ -54,6 +54,7 @@ export const siteConfig = {
       "I have managed 25+ concurrent legal and compliance matters weekly, collaborating with cross-functional teams and senior stakeholders to translate regulatory requirements into practical actions, communicate findings and keep complex projects moving across multiple jurisdictions.",
       "I'm now building deeper technical capabilities in data analysis, SQL and AI workflows, with a particular interest in how technology and evidence can improve privacy and compliance operations.",
       "This portfolio brings together work and resources developed over the past two years through my Master's, professional experience, certifications and independent research.",
+      "Strong stakeholder management and communication skills, including presenting to leadership, data-driven decision-making, and hands-on experience in privacy compliance and operations. I have a particular interest in global geopolitical issues, social media dynamics, and emerging online harms.",
     ],
     expertise: [
       "GDPR, DPAs and DPIAs",
@@ -152,11 +153,6 @@ export const siteConfig = {
     title: "Let's connect",
     blurb:
       "I like a challenge. My goal is to help operational teams stand up governed AI workflows for their processes.",
-    offers: [
-      "A readiness or gap assessment against the GDPR, ISO/IEC 27001, or the EU AI Act",
-      "Designing a review workflow with the controls kept inside it (retrieval grounding, encoded playbook, evaluator check, human approval gate)",
-      "A second opinion on an AI system's risk classification and obligations",
-    ],
     emailSubject: "Enquiry from the portfolio",
     note: "",
   },

@@ -302,6 +302,13 @@ export default function Home() {
                   </strong>
                   .
                 </p>
+                <p>
+                  Strong stakeholder management and communication skills, including
+                  presenting to leadership, data-driven decision-making, and hands-on
+                  experience in privacy compliance and operations. I have a particular
+                  interest in global geopolitical issues, social media dynamics, and
+                  emerging online harms.
+                </p>
               </div>
               <div className="mt-5 flex flex-wrap gap-4 text-[14px] font-semibold text-[var(--forest)]">
                 <a href={siteConfig.links.linkedin}>LinkedIn</a>

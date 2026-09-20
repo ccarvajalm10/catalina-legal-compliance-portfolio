@@ -26,21 +26,6 @@ export function Consultation({ variant = "light" }: { variant?: "light" | "band"
           {c.blurb}
         </p>
 
-        <ul className="mt-6 grid gap-3 sm:grid-cols-3">
-          {c.offers.map((o) => (
-            <li
-              key={o}
-              className={`rounded-xl border p-4 text-[13px] leading-relaxed ${
-                variant === "band"
-                  ? "border-[#ffffff26] bg-[#ffffff0d] text-[#ddd8ef]"
-                  : "border-[var(--line)] bg-[var(--surface)] text-[var(--ink-2)]"
-              }`}
-            >
-              {o}
-            </li>
-          ))}
-        </ul>
-
         <div className="mt-7 flex flex-wrap items-center gap-3">
           <a href={mailto} className={`btn ${variant === "band" ? "btn-ondark" : "btn-primary"}`}>
             Email me
