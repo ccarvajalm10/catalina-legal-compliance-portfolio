@@ -6,8 +6,8 @@
  */
 
 export const EDUCATION = {
-  programme: "Master's in Law, Data & AI",
-  institution: "EMILDAI",
+  programme: "Master's in Law, Data & AI (EMILDAI)",
+  institution: "Dublin City University · Universidad de León · Università di Pisa",
   route: "Ireland → Spain → Italy",
   themes: ["GDPR", "ePrivacy", "DORA", "NIS2", "DSA", "DMA", "ISO 27001", "MiCA", "AI Act", "DGA"],
   note: "Recently completed. A joint programme across three countries, combining doctrinal law with applied data and AI modules.",
@@ -36,7 +36,7 @@ export const CREDENTIALS: Credential[] = [
     issuer: "ICMEC",
     status: "05/2026",
   },
-  { name: "SQL", issuer: "DataCamp", status: "Developing" },
+  { name: "SQL", issuer: "DataCamp", status: "03/2026" },
   { name: "AI Fluency", issuer: "Anthropic", status: "2026" },
   { name: "Agent Skills", issuer: "Anthropic", status: "2026" },
 ];
@@ -79,6 +79,7 @@ export const EXPERIENCE: Role[] = [
     role: "Privacy & DPO Consultant",
     frame: "consultant",
     themes: [
+      "International Privacy Frameworks",
       "Employee Privacy",
       "DSARs",
       "DPO Operations",

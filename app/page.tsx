@@ -356,12 +356,22 @@ export default function Home() {
                 <div className="mt-1 font-serif text-[17px]">{r.org}</div>
                 <p className="mt-0.5 text-[13px] text-[var(--ink-2)]">{r.role}</p>
                 <div className="mt-3 flex flex-wrap gap-1.5">
-                  {r.themes.slice(0, 4).map((t) => (
+                  {r.themes.map((t) => (
                     <span key={t} className="chip">
                       {t}
                     </span>
                   ))}
                 </div>
+                <ul className="icon-list mt-3">
+                  {r.highlights.map((h) => (
+                    <li key={h}>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M20 6 9 17l-5-5" />
+                      </svg>
+                      <span className="text-[12.5px]">{h}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
