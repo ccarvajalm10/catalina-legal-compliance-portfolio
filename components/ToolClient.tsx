@@ -115,7 +115,7 @@ export default function ToolClient({
     <div className="container-x py-10" data-accent="forest">
       {/* header */}
       <div>
-        <p className="kicker on-accent">Live tool · Case study 01</p>
+        <p className="kicker on-accent">Live tool · Case study 02</p>
         <h1 className="display mt-2 text-[clamp(1.7rem,3vw,2.3rem)]">
           {result.company}: Annex A gap assessment
         </h1>

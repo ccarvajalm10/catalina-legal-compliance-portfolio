@@ -34,7 +34,7 @@ export function WorkedExamplePage({ ex }: { ex: WorkedExample }) {
           <span className="text-[var(--ink-3)]">/</span>
           <span className="area-tag">{ex.area}</span>
         </div>
-        <p className="kicker on-accent mt-5">Case study {ex.slug === "dpa-review" ? "02" : "03"}</p>
+        <p className="kicker on-accent mt-5">Case study {ex.number}</p>
         <h1 className="display mt-3 text-[clamp(2rem,4.4vw,3rem)]">{ex.title}</h1>
 
         <div className="mt-6 grid gap-4 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 sm:grid-cols-[1fr_auto_1fr] sm:items-center sm:gap-6">
@@ -189,11 +189,11 @@ export function WorkedExamplePage({ ex }: { ex: WorkedExample }) {
             ← All three case studies
           </Link>
           <Link
-            href={ex.slug === "dpa-review" ? "/case-study/ai-governance" : "/case-study/dpa-review"}
+            href={ex.slug === "dpa-review" ? "/case-study/iso-27001" : "/case-study/dpa-review"}
             className="text-[14px] font-semibold text-[var(--accent-deep)]"
           >
             {ex.slug === "dpa-review"
-              ? "Next: EU AI Act readiness →"
+              ? "Next: ISO 27001 gap analysis →"
               : "Next: DPA review →"}
           </Link>
         </div>

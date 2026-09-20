@@ -21,6 +21,8 @@ export type SampleCheck = {
 
 export type WorkedExample = {
   slug: string;
+  /** display number, kept in sync with siteConfig.caseStudies */
+  number: string;
   accent: "clay" | "indigo";
   area: string;
   title: string;
@@ -58,6 +60,7 @@ export type WorkedExample = {
 
 export const DPA_REVIEW: WorkedExample = {
   slug: "dpa-review",
+  number: "01",
   accent: "clay",
   area: "Privacy & Data Protection",
   title: "Data Processing Agreement review, governed end to end",
@@ -198,6 +201,7 @@ export const DPA_REVIEW: WorkedExample = {
 
 export const AI_GOVERNANCE: WorkedExample = {
   slug: "ai-governance",
+  number: "03",
   accent: "indigo",
   area: "AI Governance",
   title: "EU AI Act readiness for an enterprise AI use case",

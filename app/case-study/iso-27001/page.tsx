@@ -9,7 +9,7 @@ import { ISO_RESOURCES } from "@/lib/resources";
 import { PIPELINE_STEPS, VERDICT_ORDER, VERDICT_RUBRIC } from "@/lib/rubric";
 
 export const metadata: Metadata = {
-  title: "Case study 01: an ISO 27001 gap analysis rebuilt as an AI pipeline",
+  title: "Case study 02: an ISO 27001 gap analysis rebuilt as an AI pipeline",
   description:
     "A demonstrative build showing how a first ISO/IEC 27001:2022 Annex A gap analysis could go from roughly four analyst-days to about one, by letting an AI pipeline draft a cited verdict for every control and having a reviewer check instead of author. Not an empirically validated result.",
 };
@@ -42,7 +42,7 @@ export default function CaseStudy() {
           <span className="area-tag">Governance, Risk &amp; Control</span>
         </div>
 
-        <p className="kicker on-accent mt-5">Case study 01</p>
+        <p className="kicker on-accent mt-5">Case study 02</p>
         <h1 className="display mt-3 text-[clamp(2rem,4.4vw,3rem)]">
           An ISO&nbsp;27001 gap analysis, rebuilt as an AI pipeline
         </h1>
@@ -293,8 +293,8 @@ export default function CaseStudy() {
           <Link href="/case-study" className="text-[14px] font-semibold text-[var(--accent-deep)]">
             ← All three case studies
           </Link>
-          <Link href="/case-study/dpa-review" className="text-[14px] font-semibold text-[var(--accent-deep)]">
-            Next: DPA review →
+          <Link href="/case-study/ai-governance" className="text-[14px] font-semibold text-[var(--accent-deep)]">
+            Next: EU AI Act readiness →
           </Link>
         </div>
       </article>

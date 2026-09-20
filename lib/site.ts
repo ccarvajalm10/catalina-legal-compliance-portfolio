@@ -4,7 +4,7 @@
 export const siteConfig = {
   author: {
     name: "Catalina Carvajal M.",
-    title: "AI Governance, Privacy & GRC Specialist",
+    title: "Privacy & Data Protection Specialist",
     location: "Dublin, Ireland",
     email: "catalinacarvajalm3@gmail.com",
     // file lives in /public. Set to "" to hide the portrait.
@@ -14,12 +14,12 @@ export const siteConfig = {
   /** The portfolio as a whole. Shown in the hero and metadata. */
   portfolio: {
     kicker: "Portfolio",
-    tagline: "AI for better legal workflows and digital compliance. Faster processes without giving up the audit trail.",
+    tagline: "Privacy-first AI automation for legal operations and digital compliance. Faster processes without giving up the audit trail.",
     lede: "These case studies are part of my thesis research on bringing AI into the everyday compliance workflows that legal, compliance and consultancy teams run. It is an approach I am planning to apply and keep developing in my own work.",
-    // The three practice areas the portfolio covers.
+    // The three practice areas the portfolio covers, privacy first.
     areas: [
-      "Governance, Risk & Control",
       "Privacy & Data Protection",
+      "Governance, Risk & Control",
       "AI Governance",
     ],
   },
@@ -37,15 +37,16 @@ export const siteConfig = {
 
   /** Shown in the About section. */
   about: {
-    bio: "Legal and compliance specialist focused on AI governance, data protection and information-security control frameworks. Completing an MSc in Law, Data and AI (EMILDAI) with a specialisation in Cybersecurity at Universidad de León and AI Ethics at Università di Pisa. CIPM and CIPP/E certified.",
+    bio: "CIPP/E and CIPM certified privacy professional completing a Master's in Law, Data and AI (EMILDAI), with three years of legal-services experience across privacy, technology, corporate governance and compliance under EU, US and LATAM frameworks. Authorised to work in Ireland (Stamp 1G).",
     background:
-      "My background is multidisciplinary across technology, data and law. Before moving into Law, Data and AI, I worked in a compliance team at a law firm in Colombia, where much of the work was manual review of organisations and contracts against control frameworks and statutory requirements. This portfolio grew out of my Master's thesis, From Regulation to Workflow, and puts its framework into practice on three real processes.",
+      "I have managed 25+ concurrent legal and compliance matters weekly, working with cross-functional teams and senior stakeholders across departments to communicate regulatory requirements and findings and coordinate the remediation of risk. Before moving into Law, Data and AI, I worked in a compliance team at a law firm in Colombia, reviewing organisations and contracts against control frameworks and statutory requirements by hand. This portfolio grew out of my Master's thesis, From Regulation to Workflow, and puts its framework into practice on three real processes; see the Skills page for how I build it and the further work I draw on.",
     expertise: [
-      "ISO/IEC 27001 and 27002",
       "GDPR, DPAs and DPIAs",
+      "Privacy investigations & incident response",
+      "ISO/IEC 27001 and 27002",
       "EU AI Act readiness",
-      "Risk management and internal controls",
-      "AI governance and assurance",
+      "SQL & data analysis",
+      "Cross-functional risk remediation",
     ],
   },
 
@@ -63,32 +64,16 @@ export const siteConfig = {
     "The before and after figures on this site are demonstrative. They describe what this controlled build produces on a fixed example, not measured outcomes from a real deployment. None of these examples has been empirically validated.",
 
   /**
-   * The three case studies. `slug` is the URL under /case-study.
+   * The three case studies. `slug` is the URL under /case-study. Order here
+   * is display order (privacy leads); `number` is kept in sync with it and
+   * with the matching WorkedExample in lib/caseContent.ts.
    * `metric.headline` is written in conditional voice on purpose: it is a
    * demonstration of what the workflow could do, not a claim that it has.
    */
   caseStudies: [
     {
-      slug: "iso-27001",
-      number: "01",
-      area: "Governance, Risk & Control",
-      accent: "forest",
-      title: "An ISO 27001 gap analysis, rebuilt as an AI pipeline",
-      process:
-        "The first ISO/IEC 27001:2022 readiness gap analysis: a verdict on all 93 Annex A controls with the evidence for each.",
-      metric: {
-        before: "~4 analyst-days",
-        after: "~1 day",
-        headline:
-          "In this build, a first pass that would take about four analyst-days is produced in about one (draft plus review).",
-      },
-      liveTool: true,
-      summary:
-        "A pipeline reads the whole ISMS document set and drafts a cited verdict for every control, so a reviewer checks 93 pre-argued findings instead of writing them from a blank page.",
-    },
-    {
       slug: "dpa-review",
-      number: "02",
+      number: "01",
       area: "Privacy & Data Protection",
       accent: "clay",
       title: "Data Processing Agreement review, governed end to end",
@@ -103,6 +88,24 @@ export const siteConfig = {
       liveTool: false,
       summary:
         "A retrieval-grounded review skill checks the agreement clause by clause against the GDPR articles and the organisation's playbook, an evaluator skill critiques that draft, and a lawyer approves before anything is final.",
+    },
+    {
+      slug: "iso-27001",
+      number: "02",
+      area: "Governance, Risk & Control",
+      accent: "forest",
+      title: "An ISO 27001 gap analysis, rebuilt as an AI pipeline",
+      process:
+        "The first ISO/IEC 27001:2022 readiness gap analysis: a verdict on all 93 Annex A controls with the evidence for each.",
+      metric: {
+        before: "~4 analyst-days",
+        after: "~1 day",
+        headline:
+          "In this build, a first pass that would take about four analyst-days is produced in about one (draft plus review).",
+      },
+      liveTool: true,
+      summary:
+        "A pipeline reads the whole ISMS document set and drafts a cited verdict for every control, so a reviewer checks 93 pre-argued findings instead of writing them from a blank page.",
     },
     {
       slug: "ai-governance",
@@ -131,9 +134,9 @@ export const siteConfig = {
     heading: "Work with me",
     title: "Email me about any of these three",
     blurb:
-      "I help legal and compliance teams stand up governed AI workflows for the processes on this site: ISO/IEC 27001 readiness, GDPR Data Processing Agreement and DPIA review, and EU AI Act classification and obligation mapping.",
+      "I help legal and compliance teams stand up governed AI workflows for the processes on this site: GDPR Data Processing Agreement and DPIA review, ISO/IEC 27001 readiness, and EU AI Act classification and obligation mapping.",
     offers: [
-      "A readiness or gap assessment against ISO/IEC 27001, the GDPR, or the EU AI Act",
+      "A readiness or gap assessment against the GDPR, ISO/IEC 27001, or the EU AI Act",
       "Designing a review workflow with the controls kept inside it (retrieval grounding, encoded playbook, evaluator check, human approval gate)",
       "A second opinion on an AI system's risk classification and obligations",
     ],

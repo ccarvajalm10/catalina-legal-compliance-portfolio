@@ -17,18 +17,18 @@ export const metadata: Metadata = {
 
 const SECTIONS = [
   {
-    slug: "iso-27001",
-    accent: "forest" as const,
-    n: "01",
-    title: "ISO 27001 gap analysis",
-    groups: ISO_RESOURCES,
-  },
-  {
     slug: "dpa-review",
     accent: "clay" as const,
-    n: "02",
+    n: "01",
     title: "Data Processing Agreement review",
     groups: DPA_RESOURCES,
+  },
+  {
+    slug: "iso-27001",
+    accent: "forest" as const,
+    n: "02",
+    title: "ISO 27001 gap analysis",
+    groups: ISO_RESOURCES,
   },
   {
     slug: "ai-governance",

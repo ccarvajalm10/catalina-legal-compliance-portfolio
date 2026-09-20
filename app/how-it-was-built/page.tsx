@@ -17,7 +17,7 @@ export default function HowItWasBuilt() {
         <p className="mt-5 text-[16px] leading-relaxed text-[var(--ink-2)]">
           A short account of how{" "}
           <Link href="/case-study/iso-27001" className="font-semibold text-[var(--forest)]">
-            case study 01
+            case study 02
           </Link>{" "}
           and its{" "}
           <Link href="/tool" className="font-semibold text-[var(--forest)]">

@@ -103,6 +103,12 @@ export default function Home() {
         <p className="mt-5 max-w-2xl text-[12.5px] leading-relaxed text-[var(--ink-3)]">
           {siteConfig.metricsDisclaimer}
         </p>
+        <p className="mt-4 text-[14px] text-[var(--ink-2)]">
+          Looking for the skills behind this work, plus SQL, NIS2 and academic samples?{" "}
+          <Link href="/skills" className="font-semibold text-[var(--forest)]">
+            See Skills →
+          </Link>
+        </p>
       </section>
 
       {/* ================= how this was built ================= */}
