@@ -56,7 +56,7 @@ export const SKILLS: SkillEvidence[] = [
     skill:
       "Highly motivated, with strong communication and relationship-building skills and a record of ongoing accomplishment",
     evidence:
-      "Three years of legal-services experience across privacy, technology, corporate governance and compliance, under EU, US and LATAM frameworks.",
+      "Three years of legal services experience focused on privacy, corporate governance, technology and compliance under EU, US and LATAM frameworks.",
     links: [{ label: "About →", href: "/#about" }],
   },
   {

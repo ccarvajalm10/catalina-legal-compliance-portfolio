@@ -35,22 +35,16 @@ function Nav() {
           {siteConfig.author.availability}
         </div>
         <nav className="flex items-center gap-1 text-[13.5px] text-[var(--ink-2)]">
-          <Link href="/case-study" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
-            Work
+          <Link href="/" className="rounded-lg px-3 py-1.5 hover:bg-white/[0.06] hover:text-[var(--ink)]">
+            Home
           </Link>
-          <Link href="/investigations" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
-            Investigations
+          <Link href="/#knowledge-lab" className="rounded-lg px-3 py-1.5 hover:bg-white/[0.06] hover:text-[var(--ink)]">
+            Knowledge Lab
           </Link>
-          <Link href="/skills" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
-            Skills
-          </Link>
-          <Link href="/#about" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
+          <Link href="/#about" className="rounded-lg px-3 py-1.5 hover:bg-white/[0.06] hover:text-[var(--ink)]">
             About
           </Link>
-          <Link href="/experience" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
-            Experience
-          </Link>
-          <Link href="/#contact" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
+          <Link href="/#contact" className="rounded-lg px-3 py-1.5 hover:bg-white/[0.06] hover:text-[var(--ink)]">
             Contact
           </Link>
           <a

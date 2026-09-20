@@ -1,32 +1,32 @@
 @import "tailwindcss";
 
 /* ============================================================================
-   Design system. Warm editorial palette, serif display + sans body.
+   Design system. Dark tech palette, serif display + sans body.
    ========================================================================== */
 :root {
   /* surfaces */
-  --paper: #f7f4ee;
-  --paper-2: #f0ebe1;
-  --surface: #fffdf9;
-  --ink: #1c1b17;
-  --ink-2: #59544b;
-  --ink-3: #8a8377;
-  --line: #e4ddcf;
-  --line-2: #d6cdb9;
+  --paper: #0a0a14;
+  --paper-2: #111120;
+  --surface: #16162a;
+  --ink: #f2f0fb;
+  --ink-2: #b6b1d6;
+  --ink-3: #817ca4;
+  --line: #26264088;
+  --line-2: #38386099;
 
   /* brand — violet, matching the hero gradient.
      var names kept as --forest* so existing references pick up the new hue. */
-  --forest: #5a3fd0;
-  --forest-deep: #3b2a9c;
-  --forest-tint: #5a3fd014;
-  --clay: #b4552d;
-  --clay-deep: #7f371a;
-  --clay-tint: #b4552d16;
-  --gold: #b98a2e;
-  --gold-tint: #b98a2e1f;
-  --indigo: #4340a6;
-  --indigo-deep: #2c2a72;
-  --indigo-tint: #4340a61a;
+  --forest: #7c5cff;
+  --forest-deep: #a996ff;
+  --forest-tint: #7c5cff2e;
+  --clay: #ff8a5c;
+  --clay-deep: #ffb08c;
+  --clay-tint: #ff8a5c2a;
+  --gold: #e0b04e;
+  --gold-tint: #e0b04e26;
+  --indigo: #6d7bff;
+  --indigo-deep: #a3acff;
+  --indigo-tint: #6d7bff2e;
 
   /* practice-area accent, remapped per page via [data-accent] */
   --accent: var(--forest);
@@ -34,21 +34,21 @@
   --accent-tint: var(--forest-tint);
 
   /* verdict scale */
-  --v-met: #2f7d5b;
-  --v-met-bg: #2f7d5b1f;
-  --v-partial: #b07514;
-  --v-partial-bg: #b075141f;
-  --v-gap: #b23a48;
-  --v-gap-bg: #b23a481f;
-  --v-na: #6b6459;
-  --v-na-bg: #1c1b1710;
+  --v-met: #4ade80;
+  --v-met-bg: #4ade8024;
+  --v-partial: #fbbf24;
+  --v-partial-bg: #fbbf2424;
+  --v-gap: #fb7185;
+  --v-gap-bg: #fb718524;
+  --v-na: #9ca3af;
+  --v-na-bg: #9ca3af24;
 
   --font-serif: var(--font-fraunces), Georgia, "Times New Roman", serif;
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
     "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
-  --shadow-sm: 0 1px 2px #1c1b1710, 0 1px 1px #1c1b1708;
-  --shadow-md: 0 6px 24px -8px #1c1b1724, 0 2px 6px -2px #1c1b1714;
+  --shadow-sm: 0 1px 2px #00000050, 0 1px 1px #00000040;
+  --shadow-md: 0 16px 40px -12px #000000a0, 0 4px 12px -4px #00000080;
 }
 
 html {
@@ -222,17 +222,17 @@ body {
 }
 .prose p {
   margin-block: 0.85em;
-  color: #3b382f;
+  color: var(--ink-2);
 }
 .prose ul {
   list-style: disc;
   padding-left: 1.15em;
-  color: #3b382f;
+  color: var(--ink-2);
 }
 .prose ol {
   list-style: decimal;
   padding-left: 1.35em;
-  color: #3b382f;
+  color: var(--ink-2);
 }
 .prose li { margin-block: 0.4em; }
 .prose li::marker { color: var(--ink-3); }
@@ -249,7 +249,7 @@ body {
   border-left: 2px solid var(--line-2);
   padding-left: 12px;
   font-style: italic;
-  color: #43403a;
+  color: var(--ink-2);
 }
 
 @keyframes pulse-soft {

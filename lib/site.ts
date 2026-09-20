@@ -46,7 +46,7 @@ export const siteConfig = {
 
   /** Shown in the About section. */
   about: {
-    bio: "CIPP/E and CIPM certified privacy professional with a recently completed Master's in Law, Data and AI (EMILDAI) and three years of legal-services experience across privacy, technology, corporate governance and compliance under EU, US and LATAM frameworks. Colombian-qualified, with experience across Ireland and Colombia, and authorised to work in Ireland (Stamp 1G).",
+    bio: "CIPP/E and CIPM certified privacy professional with a recently completed Master's in Law, Data and AI (EMILDAI) and three years of legal services experience focused on privacy, corporate governance, technology and compliance under EU, US and LATAM frameworks. Colombian-qualified, with experience across Ireland and Colombia, and authorised to work in Ireland (Stamp 1G).",
     background:
       "I have managed 25+ concurrent legal and compliance matters weekly, collaborating with cross-functional teams and senior stakeholders across departments to communicate regulatory requirements and findings, and coordinating stakeholders to address risks and implement compliance measures. I'm now building deeper technical capabilities in data analysis, SQL and AI workflows, because effective privacy investigations increasingly require understanding not only what the law says, but what the systems and evidence show. See Experience for my background, and Skills for how I build and the further work I draw on.",
     expertise: [
