@@ -76,9 +76,15 @@ export const EXPERIENCE: Role[] = [
   },
   {
     org: "Stratega",
-    role: "Privacy & DPO Consultant",
+    role: "Legal & Privacy Consultant",
     frame: "consultant",
     themes: [
+      "Commercial Contracts",
+      "SaaS Agreements",
+      "Contract Lifecycle Management",
+      "AI Tools & Prompt Engineering",
+      "Data Analytics",
+      "EU, US & LATAM Markets",
       "International Privacy Frameworks",
       "Employee Privacy",
       "DSARs",
@@ -97,10 +103,11 @@ export const EXPERIENCE: Role[] = [
       "GRC",
     ],
     highlights: [
-      "Acted as an outsourced privacy point of contact for business clients, running recurring GDPR compliance and privacy assessments",
-      "Managed Data Subject Access Request workflows end to end, coordinating with HR and business stakeholders to meet statutory deadlines",
-      "Reviewed vendor and third-party arrangements for privacy risk and escalated material findings to clients",
-      "Advised on employee privacy matters across the employment lifecycle",
+      "Proven track record of independently managing complex projects and delivering measurable impact across legal, commercial and privacy workstreams",
+      "Applied AI tools and prompt engineering to legal workflows, reducing legal turnaround times to under 2 business days, and delivered training to client teams on AI confidentiality, responsible AI use and shadow AI",
+      "Managed 15 to 25 concurrent commercial, corporate and contract matters weekly across EU, US and LATAM markets, coordinating stakeholders and tracking workflows to identify bottlenecks and improve efficiency",
+      "Managed contract lifecycles for high-growth tech startups, onboarding 80+ clients per month and drafting and negotiating SaaS agreements, MSAs, DPAs, SLAs, contractor agreements and investment agreements",
+      "Acted as an outsourced privacy point of contact for business clients, running recurring GDPR compliance and privacy assessments and managing DSAR workflows end to end",
     ],
   },
 ];
