@@ -4,9 +4,11 @@
 export const siteConfig = {
   author: {
     name: "Catalina Carvajal M.",
-    title: "Privacy & Data Protection Specialist",
+    title: "Privacy & Legal Specialist",
     location: "Dublin, Ireland",
     email: "catalinacarvajalm3@gmail.com",
+    // Shown as a small status pill in the nav.
+    availability: "Available for privacy / trust & safety roles",
     // file lives in /public. Set to "" to hide the portrait.
     photo: "/catalina.jpg",
   },
@@ -14,12 +16,17 @@ export const siteConfig = {
   /** The portfolio as a whole. Shown in the hero and metadata. */
   portfolio: {
     kicker: "Portfolio",
-    tagline: "Privacy-first AI automation for legal operations and digital compliance. Faster processes without giving up the audit trail.",
-    lede: "These case studies are part of my thesis research on bringing AI into the everyday compliance workflows that legal, compliance and consultancy teams run. It is an approach I am planning to apply and keep developing in my own work.",
-    // The three practice areas the portfolio covers, privacy first.
+    tagline: "Privacy specialist. Legal specialist. Working at the intersection of law, data and technology.",
+    lede: "I investigate complex privacy problems, connect regulatory requirements with technical evidence, and build practical workflows for safer digital products.",
+    // Capability tags shown as chips in the hero.
     areas: [
-      "Privacy & Data Protection",
-      "Governance, Risk & Control",
+      "GDPR",
+      "Privacy Investigations",
+      "DSARs",
+      "Technical Evidence",
+      "SQL",
+      "NIST",
+      "ISO 27001",
       "AI Governance",
     ],
   },
@@ -37,9 +44,9 @@ export const siteConfig = {
 
   /** Shown in the About section. */
   about: {
-    bio: "CIPP/E and CIPM certified privacy professional completing a Master's in Law, Data and AI (EMILDAI), with three years of legal-services experience across privacy, technology, corporate governance and compliance under EU, US and LATAM frameworks. Authorised to work in Ireland (Stamp 1G).",
+    bio: "I'm a Colombian-qualified lawyer specialising in privacy, digital regulation and AI governance, with experience across Ireland and Colombia. My work sits between legal analysis and operational problem-solving: DSARs, employee privacy, regulatory research, DPIAs, data governance and compliance workflows for technology and multinational clients. Authorised to work in Ireland (Stamp 1G).",
     background:
-      "I have managed 25+ concurrent legal and compliance matters weekly, working with cross-functional teams and senior stakeholders across departments to communicate regulatory requirements and findings and coordinate the remediation of risk. Before moving into Law, Data and AI, I worked in a compliance team at a law firm in Colombia, reviewing organisations and contracts against control frameworks and statutory requirements by hand. This portfolio grew out of my Master's thesis, From Regulation to Workflow, and puts its framework into practice on three real processes; see the Skills page for how I build it and the further work I draw on.",
+      "I recently completed my Master's in Law, Data and AI through the EMILDAI programme and hold the CIPP/E and CIPM. I'm now building deeper technical capabilities in data analysis, SQL and AI workflows, because effective privacy investigations increasingly require understanding not only what the law says, but what the systems and evidence show. See Experience for my background, and Skills for how I build and the further work I draw on.",
     expertise: [
       "GDPR, DPAs and DPIAs",
       "Privacy investigations & incident response",

@@ -23,15 +23,12 @@ export default function Home() {
               {siteConfig.portfolio.lede}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/case-study" className="btn btn-onhero">
-                Read the case studies
+              <Link href="/investigations" className="btn btn-onhero">
+                Explore my investigations ↓
               </Link>
-              <Link href="/tool" className="btn btn-hero-ghost">
-                Open the live tool
-              </Link>
-              <Link href="/#about" className="btn btn-hero-ghost">
-                About me
-              </Link>
+              <a href={siteConfig.links.github} className="btn btn-hero-ghost">
+                View GitHub
+              </a>
             </div>
             <div className="mt-10 flex flex-wrap gap-2">
               {siteConfig.portfolio.areas.map((area) => (

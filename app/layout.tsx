@@ -20,7 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: `${siteConfig.author.name}, ${siteConfig.author.title}`,
   description:
-    "A portfolio of three worked examples on using governed AI workflows to make governance, privacy and AI-governance work faster: an ISO/IEC 27001 gap analysis (with a live tool), a GDPR Data Processing Agreement review, and EU AI Act readiness.",
+    "Privacy investigations grounded in technical evidence: case work on GDPR, ISO/IEC 27001 and the EU AI Act, a methodology for ambiguous privacy incidents, and the SQL and data-analysis skills behind them.",
 };
 
 function Nav() {
@@ -30,21 +30,22 @@ function Nav() {
         <Link href="/" className="font-serif text-[19px] font-medium tracking-tight">
           {siteConfig.author.name}
         </Link>
+        <div className="hidden items-center gap-2 rounded-full border border-[var(--line-2)] px-3 py-1 text-[11.5px] text-[var(--ink-2)] md:flex">
+          <span className="h-1.5 w-1.5 rounded-full bg-[var(--v-met)]" />
+          {siteConfig.author.availability}
+        </div>
         <nav className="flex items-center gap-1 text-[13.5px] text-[var(--ink-2)]">
           <Link href="/case-study" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
-            Case studies
+            Work
           </Link>
-          <Link href="/skills" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
-            Skills
+          <Link href="/investigations" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
+            Investigations
           </Link>
-          <Link href="/tool" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
-            Live tool
+          <Link href="/#about" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
+            About
           </Link>
-          <Link href="/resources" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
-            Resources
-          </Link>
-          <Link href="/how-it-was-built" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
-            Method
+          <Link href="/experience" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
+            Experience
           </Link>
           <Link href="/#contact" className="rounded-lg px-3 py-1.5 hover:bg-black/[0.04] hover:text-[var(--ink)]">
             Contact
