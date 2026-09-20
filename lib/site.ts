@@ -44,11 +44,18 @@ export const siteConfig = {
       "Each case study here is an illustrative implementation of that framework, assessed against the external legal requirements it targets rather than against internally defined success criteria.",
   },
 
-  /** Shown in the About section. */
+  /**
+   * Shown in the About section. `paragraphs` is the plain-text record; the
+   * page renders a bolded rich-text version of the same four paragraphs
+   * directly in app/page.tsx (same pattern as the hero lede).
+   */
   about: {
-    bio: "CIPP/E and CIPM certified privacy professional with a recently completed Master's in Law, Data and AI (EMILDAI) and three years of legal services experience focused on privacy, corporate governance, technology and compliance under EU, US and LATAM frameworks. Colombian-qualified, with experience across Ireland and Colombia, and authorised to work in Ireland (Stamp 1G).",
-    background:
-      "I have managed 25+ concurrent legal and compliance matters weekly, collaborating with cross-functional teams and senior stakeholders across departments to communicate regulatory requirements and findings, and coordinating stakeholders to address risks and implement compliance measures. I'm now building deeper technical capabilities in data analysis, SQL and AI workflows, because effective privacy investigations increasingly require understanding not only what the law says, but what the systems and evidence show. See Experience for my background, and Skills for how I build and the further work I draw on.",
+    paragraphs: [
+      "I'm a CIPP/E and CIPM-certified privacy professional with a Master's in Law, Data & AI and three years of legal-services experience across privacy, technology, corporate governance and compliance, working with EU, US and LATAM privacy frameworks.",
+      "I have managed 25+ concurrent legal and compliance matters weekly, collaborating with cross-functional teams and senior stakeholders to translate regulatory requirements into practical actions, communicate findings and keep complex projects moving across multiple jurisdictions.",
+      "I'm now building deeper technical capabilities in data analysis, SQL and AI workflows, with a particular interest in how technology and evidence can improve privacy and compliance operations.",
+      "This portfolio brings together work and resources developed over the past two years through my Master's, professional experience, certifications and independent research.",
+    ],
     expertise: [
       "GDPR, DPAs and DPIAs",
       "Privacy investigations & incident response",
@@ -61,7 +68,9 @@ export const siteConfig = {
 
   links: {
     linkedin: "https://www.linkedin.com/in/catalinacarvajalm/",
+    certifications: "https://www.linkedin.com/in/catalinacarvajalm/details/certifications/",
     github: "https://github.com/ccarvajalm10",
+    sqlLibrary: "https://ccarvajalm10.github.io/assets/sql-queries.html",
     repo: "https://github.com/ccarvajalm10/catalina-legal-compliance-portfolio",
   },
 
@@ -141,16 +150,16 @@ export const siteConfig = {
    */
   contact: {
     heading: "Work with me",
-    title: "Email me about any of these three",
+    title: "Let's connect",
     blurb:
-      "I help legal and compliance teams stand up governed AI workflows for the processes on this site: GDPR Data Processing Agreement and DPIA review, ISO/IEC 27001 readiness, and EU AI Act classification and obligation mapping.",
+      "I like a challenge. My goal is to help operational teams stand up governed AI workflows for their processes.",
     offers: [
       "A readiness or gap assessment against the GDPR, ISO/IEC 27001, or the EU AI Act",
       "Designing a review workflow with the controls kept inside it (retrieval grounding, encoded playbook, evaluator check, human approval gate)",
       "A second opinion on an AI system's risk classification and obligations",
     ],
     emailSubject: "Enquiry from the portfolio",
-    note: "Goes straight to my inbox. I usually reply within two working days.",
+    note: "",
   },
 
   /** Downloadable working templates, served from /public/templates. */

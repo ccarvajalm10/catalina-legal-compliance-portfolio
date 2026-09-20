@@ -54,13 +54,15 @@ export function Consultation({ variant = "light" }: { variant?: "light" | "band"
             Connect on LinkedIn
           </a>
         </div>
-        <p
-          className={`mt-3 text-[12px] ${
-            variant === "band" ? "text-[#a79fce]" : "text-[var(--ink-3)]"
-          }`}
-        >
-          {c.note}
-        </p>
+        {c.note ? (
+          <p
+            className={`mt-3 text-[12px] ${
+              variant === "band" ? "text-[#a79fce]" : "text-[var(--ink-3)]"
+            }`}
+          >
+            {c.note}
+          </p>
+        ) : null}
       </div>
     </section>
   );

@@ -47,8 +47,21 @@ export default function Home() {
               <Link href="/#knowledge-lab" className="btn btn-onhero">
                 Explore the Knowledge Lab ↓
               </Link>
-              <a href={siteConfig.links.github} className="btn btn-hero-ghost">
-                View GitHub
+              <a
+                href={siteConfig.links.sqlLibrary}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-hero-ghost"
+              >
+                SQL Library
+              </a>
+              <a
+                href={siteConfig.links.certifications}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-hero-ghost"
+              >
+                Certifications
               </a>
             </div>
             <div className="mt-10 flex flex-wrap items-center gap-x-4 gap-y-2">
@@ -267,8 +280,37 @@ export default function Home() {
                 {siteConfig.author.title}, {siteConfig.author.location}
               </p>
               <div className="mt-4 space-y-3 text-[14.5px] leading-relaxed text-[var(--ink-2)]">
-                <p>{siteConfig.about.bio}</p>
-                <p>{siteConfig.about.background}</p>
+                <p>
+                  I&rsquo;m a <strong className="text-[var(--ink)]">CIPP/E and CIPM-certified privacy professional</strong> with
+                  a <strong className="text-[var(--ink)]">Master&rsquo;s in Law, Data &amp; AI</strong> and three years of
+                  legal-services experience across{" "}
+                  <strong className="text-[var(--ink)]">
+                    privacy, technology, corporate governance and compliance
+                  </strong>
+                  , working with EU, US and LATAM privacy frameworks.
+                </p>
+                <p>
+                  I have managed{" "}
+                  <strong className="text-[var(--ink)]">25+ concurrent legal and compliance matters weekly</strong>,
+                  collaborating with cross-functional teams and senior stakeholders to
+                  translate regulatory requirements into practical actions, communicate
+                  findings and keep complex projects moving across multiple jurisdictions.
+                </p>
+                <p>
+                  I&rsquo;m now building deeper technical capabilities in{" "}
+                  <strong className="text-[var(--ink)]">data analysis, SQL and AI workflows</strong>, with a
+                  particular interest in how technology and evidence can improve privacy
+                  and compliance operations.
+                </p>
+                <p>
+                  This portfolio brings together work and resources developed over the
+                  past two years through my{" "}
+                  <strong className="text-[var(--ink)]">
+                    Master&rsquo;s, professional experience, certifications and independent
+                    research
+                  </strong>
+                  .
+                </p>
               </div>
               <div className="mt-5 flex flex-wrap gap-4 text-[14px] font-semibold text-[var(--forest)]">
                 <a href={siteConfig.links.linkedin}>LinkedIn</a>
@@ -276,21 +318,6 @@ export default function Home() {
                 <a href={`mailto:${siteConfig.author.email}`}>Email</a>
               </div>
             </div>
-          </div>
-
-          {/* stats */}
-          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
-            {[
-              ["3", "Years of legal experience"],
-              ["25+", "Matters handled weekly"],
-              ["3", "Jurisdictions (EU, US, LATAM)"],
-              ["5", "Credentials"],
-            ].map(([val, label]) => (
-              <div key={label} className="rounded-xl border border-[var(--line)] bg-[var(--surface)] px-4 py-4">
-                <div className="font-serif text-[28px] text-[var(--forest-deep)]">{val}</div>
-                <div className="mt-0.5 text-[12px] text-[var(--ink-2)]">{label}</div>
-              </div>
-            ))}
           </div>
 
           {/* credentials */}
